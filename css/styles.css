@@ -74,8 +74,9 @@ header nav ul li:last-child {
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  padding-bottom: 30px;
 }
 .hero h1 {
   font-size: 3.2rem;
@@ -102,23 +103,12 @@ header nav ul li:last-child {
     font-size: 1.6rem;
   }
 }
-@media (max-height: 510px) {
+@media (max-height: 520px) {
   .hero h1, .hero h3 {
     display: none;
   }
-  .hero {
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-  .hero .btn {
-    font-size: 0.8rem;    
-
-    align-self: flex-end;
-    margin-bottom: 10px;
-    margin-right: 10px;
-  }
 }
-@media (max-height: 300px) {
+@media (max-height: 380px) {
   .hero .btn {
     display: none;
   }
