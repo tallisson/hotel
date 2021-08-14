@@ -303,3 +303,9 @@ footer ul li a {
 footer p {
   color: #c3c63b;
 }
+footer .copyright {
+  font-size: 0.9rem !important;
+}
+footer #contatos {
+  padding-bottom: 15px;
+}
